@@ -15,7 +15,7 @@
 <body>
 <main>
   <h1>Okey Buddy Gizlilik Politikasi</h1>
-  <p class="note">Son guncelleme: 2026-10-18</p>
+  <p class="note">Son guncelleme: 2026-10-21</p>
   <p>Bu taslak, Okey Buddy uygulamasinin topladigi ve isledigi verileri kullanicilara aciklamak icin hazirlanmistir. Yayina cikmadan once <code>[[...]]</code> ile isaretli alanlar doldurulmali ve metin hukuki olarak kontrol edilmelidir.</p>
   <p>Veri sorumlusu: Halil Melih Akça, Beytepe Mahallesi 1815. Sokak No: 47, Ankara.</p>
 
@@ -23,7 +23,7 @@
     <h2>Toplanan Bilgiler</h2>
     <ul>
       <li>Hesap bilgileri: email adresi ve oturum bilgileri; kayit sirasinda 18 yas ve uzeri oldugunuzun beyani ile kullanim kosullari ve gizlilik politikasi onayi</li>
-      <li>Profil bilgileri: ad, yas, sehir, ilce, favori mekan, oyuncu ozellikleri ve oyun tercihleri</li>
+      <li>Profil bilgileri: ad, yas, sehir, ilce, favori mekan, oyuncu ozellikleri ve oyun tercihleri (okey, kart oyunlari ve kutu oyunlari)</li>
       <li>Profil fotografi: kullanicinin yukledigi fotograf dosyalari</li>
       <li>Konum bilgisi: kullanici izin verirse yakin oyuncu ve masa onerileri icin cihaz konumu</li>
       <li>Uygulama hareketleri: eslesme, reddetme, bloklama, oda istegi, turnuva katilimi ve mesajlasma kayitlari</li>
@@ -39,12 +39,12 @@
 
   <section>
     <h2>Konum, Fotograf ve Mesajlar</h2>
-    <p>Konum verisi yalnizca kullanici izin verirse alinir. Diger kullanicilar kesin koordinatlarinizi gormez; yalnizca yaklasik konum ve yaklasik mesafe bilgisi gosterilir. Profil fotograflari Supabase Storage uzerinde saklanir. Oda ve ozel sohbet mesajlari ilgili katilimci veya eslesmis kullanicilar tarafindan gorulebilir. Birbirini bloklayan kullanicilar birbirlerinin profilini, odalarini ve mesajlarini goremez ve birbirlerine mesaj gonderemez. Raporlar yetkili moderatorler tarafindan incelenir; kurallari ihlal eden hesaplar moderatorler tarafindan askiya alinabilir veya yasaklanabilir.</p>
+    <p>Konum verisi yalnizca uygulama icinde izin istenerek ve kullanici izin verirse alinir. Konum sunucuda kabaca (yaklasik 1 km hassasiyetinde) yuvarlanmis olarak saklanir; kesin koordinatlariniz saklanmaz ve diger kullanicilar tarafindan gorulmez, yalnizca yaklasik konum ve yaklasik mesafe bilgisi gosterilir. Mekan aramasi: Favori mekan veya oda mekani secerken yazdiginiz arama metni ve yaklasik bolge bilgisi, OpenStreetMap tabanli Photon arama hizmetine (photon.komoot.io) gonderilir. Sectiginiz mekanlar (ad, adres ve yaklasik koordinat) veritabanimizda saklanir ve diger kullanicilar icin mekan listesinde gorunebilir. Profil fotograflari Supabase Storage uzerinde saklanir. Oda ve ozel sohbet mesajlari ilgili katilimci veya eslesmis kullanicilar tarafindan gorulebilir. Birbirini bloklayan kullanicilar birbirlerinin profilini, odalarini ve mesajlarini goremez ve birbirlerine mesaj gonderemez. Raporlar yetkili moderatorler tarafindan incelenir; kurallari ihlal eden hesaplar moderatorler tarafindan askiya alinabilir veya yasaklanabilir.</p>
   </section>
 
   <section>
     <h2>Ucuncu Taraf Hizmetler</h2>
-    <p>Okey Buddy altyapisinda Supabase kullanilir. Push bildirim altyapisinda Firebase Cloud Messaging ve Apple Push Notification Service kullanilir. Harita goruntuleri OpenStreetMap sunucularindan alinir; harita istekleri IP adresi ve goruntulenen bolge bilgisi icerebilir.</p>
+    <p>Okey Buddy altyapisinda Supabase kullanilir. Push bildirim altyapisinda Firebase Cloud Messaging ve Apple Push Notification Service kullanilir. Harita goruntuleri OpenStreetMap sunucularindan alinir; harita istekleri IP adresi ve goruntulenen bolge bilgisi icerebilir. Mekan aramasi icin OpenStreetMap tabanli Photon hizmeti (photon.komoot.io) kullanilir; bu hizmete yazdiginiz arama metni ve yaklasik bolge bilgisi gonderilir.</p>
   </section>
 
   <section>
