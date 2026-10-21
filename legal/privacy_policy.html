@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Okey Buddy Gizlilik Politikasi</title>
+  <title>Badi Gizlilik Politikası</title>
   <style>
     body { margin: 0; font-family: Arial, sans-serif; background: #f6f3ee; color: #1b1f1d; line-height: 1.55; }
     main { max-width: 820px; margin: 0 auto; padding: 32px 18px 48px; }
@@ -14,52 +14,76 @@
 </head>
 <body>
 <main>
-  <h1>Okey Buddy Gizlilik Politikasi</h1>
-  <p class="note">Son guncelleme: 2026-10-21</p>
-  <p>Bu taslak, Okey Buddy uygulamasinin topladigi ve isledigi verileri kullanicilara aciklamak icin hazirlanmistir. Yayina cikmadan once <code>[[...]]</code> ile isaretli alanlar doldurulmali ve metin hukuki olarak kontrol edilmelidir.</p>
+  <h1>Badi Gizlilik Politikası</h1>
+  <p class="note">Son güncelleme: 2026-10-21</p>
+  <p>Bu taslak, Badi uygulamasının topladığı ve işlediği verileri kullanıcılara açıklamak için hazırlanmıştır. Yayına çıkmadan önce <code>[[...]]</code> ile işaretli alanlar doldurulmalı ve metin hukuki açıdan kontrol edilmelidir (bkz. <code>docs/release/open_inputs.md</code>).</p>
   <p>Veri sorumlusu: Halil Melih Akça, Beytepe Mahallesi 1815. Sokak No: 47, Ankara.</p>
 
   <section>
     <h2>Toplanan Bilgiler</h2>
+    <p>Badi aşağıdaki bilgileri işleyebilir:</p>
     <ul>
-      <li>Hesap bilgileri: email adresi ve oturum bilgileri; kayit sirasinda 18 yas ve uzeri oldugunuzun beyani ile kullanim kosullari ve gizlilik politikasi onayi</li>
-      <li>Profil bilgileri: ad, yas, sehir, ilce, favori mekan, oyuncu ozellikleri ve oyun tercihleri (okey, kart oyunlari ve kutu oyunlari)</li>
-      <li>Profil fotografi: kullanicinin yukledigi fotograf dosyalari</li>
-      <li>Konum bilgisi: kullanici izin verirse yakin oyuncu ve masa onerileri icin cihaz konumu</li>
-      <li>Uygulama hareketleri: eslesme, reddetme, bloklama, oda istegi, turnuva katilimi ve mesajlasma kayitlari</li>
-      <li>Raporlama bilgileri</li>
-      <li>Bildirim tercihleri ve push bildirim cihaz tokeni: bildirim gondermek icin saklanir</li>
+      <li>Hesap bilgileri: e-posta adresi ve oturum bilgileri; kayıt sırasında 18 yaş ve üzeri olduğunuza ilişkin beyanınız ile Kullanım Koşulları ve Gizlilik Politikası onayınız</li>
+      <li>Profil bilgileri: ad, yaş, şehir, ilçe, favori mekân, oyuncu özellikleri ve oyun tercihleri (okey, kart oyunları ve kutu oyunları)</li>
+      <li>Profil fotoğrafı: kullanıcının yüklediği fotoğraf dosyaları</li>
+      <li>Konum bilgisi: kullanıcı izin verirse yakındaki oyuncu ve masa önerileri için cihaz konumu</li>
+      <li>Uygulama hareketleri: eşleşme, reddetme, bloklama, oda isteği, turnuva katılımı ve mesajlaşma kayıtları</li>
+      <li>Raporlama bilgileri: kullanıcı tarafından gönderilen şikâyet ve rapor kayıtları</li>
+      <li>Değerlendirmeler: eşleştiğiniz veya aynı masada oynadığınız oyunculara verdiğiniz 1–5 yıldız puan ve isteğe bağlı yorum; değerlendirmeler, değerlendirilen kişinin profilinde adınızla birlikte diğer kullanıcılara gösterilir</li>
+      <li>Bildirim tercihleri ve push bildirim cihaz token'ı: bildirim göndermek için saklanır</li>
     </ul>
   </section>
 
   <section>
-    <h2>Bilgilerin Kullanimi</h2>
-    <p>Veriler hesap olusturma, eslestirme, sohbet, turnuva, guvenlik, raporlama, moderasyon, bildirim yonetimi ve hizmeti iyilestirme amaclariyla kullanilir.</p>
+    <h2>Bilgilerin Kullanımı</h2>
+    <p>Veriler şu amaçlarla kullanılır:</p>
+    <ul>
+      <li>Hesap oluşturma ve oturum açma</li>
+      <li>Oyuncu eşleştirme ve yakındaki masa önerileri</li>
+      <li>Oda, sohbet ve turnuva özelliklerini çalıştırma</li>
+      <li>Güvenlik, raporlama ve moderasyon</li>
+      <li>Bildirimleri ve kullanıcı tercihlerini yönetme</li>
+      <li>Uygulama hatalarını anlamak ve hizmeti iyileştirmek</li>
+    </ul>
   </section>
 
   <section>
-    <h2>Konum, Fotograf ve Mesajlar</h2>
-    <p>Konum verisi yalnizca uygulama icinde izin istenerek ve kullanici izin verirse alinir. Konum sunucuda kabaca (yaklasik 1 km hassasiyetinde) yuvarlanmis olarak saklanir; kesin koordinatlariniz saklanmaz ve diger kullanicilar tarafindan gorulmez, yalnizca yaklasik konum ve yaklasik mesafe bilgisi gosterilir. Mekan aramasi: Favori mekan veya oda mekani secerken yazdiginiz arama metni ve yaklasik bolge bilgisi, OpenStreetMap tabanli Photon arama hizmetine (photon.komoot.io) gonderilir. Sectiginiz mekanlar (ad, adres ve yaklasik koordinat) veritabanimizda saklanir ve diger kullanicilar icin mekan listesinde gorunebilir. Profil fotograflari Supabase Storage uzerinde saklanir. Oda ve ozel sohbet mesajlari ilgili katilimci veya eslesmis kullanicilar tarafindan gorulebilir. Birbirini bloklayan kullanicilar birbirlerinin profilini, odalarini ve mesajlarini goremez ve birbirlerine mesaj gonderemez. Raporlar yetkili moderatorler tarafindan incelenir; kurallari ihlal eden hesaplar moderatorler tarafindan askiya alinabilir veya yasaklanabilir.</p>
+    <h2>Konum Verisi</h2>
+    <p>Konum verisi yalnızca uygulama içinde izin istenerek ve kullanıcı izin verirse alınır. Bu bilgi yakındaki oyuncu, oda ve mekân önerilerini iyileştirmek için kullanılır. Konum, sunucuda kabaca (yaklaşık 1 km hassasiyetinde) yuvarlanmış olarak saklanır; kesin koordinatlarınız saklanmaz ve diğer kullanıcılar tarafından görülmez, yalnızca yaklaşık konum ve yaklaşık mesafe bilgisi gösterilir. Kullanıcı, cihaz ayarlarından konum iznini her zaman kapatabilir.</p>
+    <p>Mekân araması: Favori mekân veya oda mekânı seçerken yazdığınız arama metni ve yaklaşık bölge bilgisi, OpenStreetMap tabanlı Photon arama hizmetine (photon.komoot.io) gönderilir. Seçtiğiniz mekânlar (ad, adres ve yaklaşık koordinat) veritabanımızda saklanır ve diğer kullanıcılar için mekân listesinde görünebilir.</p>
   </section>
 
   <section>
-    <h2>Ucuncu Taraf Hizmetler</h2>
-    <p>Okey Buddy altyapisinda Supabase kullanilir. Push bildirim altyapisinda Firebase Cloud Messaging ve Apple Push Notification Service kullanilir. Harita goruntuleri OpenStreetMap sunucularindan alinir; harita istekleri IP adresi ve goruntulenen bolge bilgisi icerebilir. Mekan aramasi icin OpenStreetMap tabanli Photon hizmeti (photon.komoot.io) kullanilir; bu hizmete yazdiginiz arama metni ve yaklasik bolge bilgisi gonderilir.</p>
+    <h2>Fotoğraf ve Mesajlar</h2>
+    <p>Profil fotoğrafları Supabase Storage üzerinde saklanır. Oda ve özel sohbet mesajları ilgili katılımcılar veya eşleşmiş kullanıcılar tarafından görülebilir. Kullanıcı, uygunsuz içerikleri raporlayabilir veya kullanıcıları bloklayabilir. Birbirini bloklayan kullanıcılar birbirlerinin profilini, odalarını ve mesajlarını göremez ve birbirlerine mesaj gönderemez. Raporlar yetkili moderatörler tarafından incelenir; kuralları ihlal eden hesaplar moderatörler tarafından askıya alınabilir veya yasaklanabilir.</p>
   </section>
 
   <section>
-    <h2>Kullanici Haklari</h2>
-    <p>Kullanicilar profil bilgilerini guncelleyebilir, bildirim tercihlerini degistirebilir, konum iznini kapatabilir, icerik raporlayabilir, profil ekranindan hesabini ve verilerini aninda silebilir ve KVKK kapsamindaki haklarini okeybuddy.destek@gmail.com e-posta adresi veya veri sorumlusunun posta adresi uzerinden kullanabilir.</p>
+    <h2>Üçüncü Taraf Hizmetler</h2>
+    <p>Badi altyapısında Supabase kullanılır. Supabase Auth, Database, Storage ve Realtime servisleri hesap, veri saklama ve canlı güncelleme özellikleri için kullanılır. Push bildirim altyapısında Firebase Cloud Messaging ve Apple Push Notification Service (APNs) kullanılır. Harita görüntüleri OpenStreetMap sunucularından alınır; harita istekleri IP adresi ve görüntülenen bölge bilgisini içerebilir. Mekân araması için OpenStreetMap tabanlı Photon hizmeti (photon.komoot.io) kullanılır; bu hizmete yazdığınız arama metni ve yaklaşık bölge bilgisi gönderilir.</p>
   </section>
 
   <section>
-    <h2>Veri Saklama ve Silme</h2>
-    <p>Hesap aktif oldugu surece profil, eslesme, oda, turnuva ve mesaj verileri saklanabilir. Kullanici uygulama icindeki profil ekranindan hesabini dogrudan silebilir; silme islemi anlik gerceklesir ve manuel onay veya inceleme beklemez. Silme sirasinda sunucu profil fotograflarini ve Auth hesabini siler; iliskili uygulama verileri (profil, eslesmeler, mesajlar, bildirimler, cihaz tokenlari) veritabani baglantilari uzerinden kaldirilir. Kullanicinin olusturdugu masalar, turnuvalar ve bunlarla iliskili sohbetler de silinir. Islem geri alinamaz. Islemin basarisiz olmasi durumunda tekrar denenebilir veya okeybuddy.destek@gmail.com uzerinden destek ile iletisime gecilebilir. Cikis yaptiginizda cihazin push bildirim tokeni sunucudan silinir.</p>
+    <h2>Veri Saklama</h2>
+    <p>Hesap aktif olduğu sürece profil, eşleşme, oda, turnuva ve mesaj verileri saklanabilir. Kullanıcı, uygulama içindeki profil ekranından hesabını doğrudan silebilir; silme işlemi anında gerçekleşir ve manuel onay veya inceleme beklemez. Silme sırasında sunucu, profil fotoğraflarını ve Auth hesabını siler; ilişkili uygulama verileri (profil, eşleşmeler, mesajlar, bildirimler, cihaz token'ları) veritabanı bağlantıları üzerinden kaldırılır. Kullanıcının oluşturduğu masalar, turnuvalar ve bunlarla ilişkili sohbetler de silinir. İşlem geri alınamaz. İşlemin başarısız olması durumunda tekrar denenebilir veya okeybuddy.destek@gmail.com üzerinden destek ekibiyle iletişime geçilebilir. Çıkış yaptığınızda cihazın push bildirim token'ı sunucudan silinir.</p>
   </section>
 
   <section>
-    <h2>Iletisim</h2>
-    <p>Destek ve gizlilik talepleri icin: okeybuddy.destek@gmail.com</p>
+    <h2>Kullanıcı Hakları</h2>
+    <p>Kullanıcılar:</p>
+    <ul>
+      <li>Profil bilgilerini güncelleyebilir</li>
+      <li>Bildirim tercihlerini değiştirebilir</li>
+      <li>Konum iznini kapatabilir</li>
+      <li>Kullanıcı veya içerik raporlayabilir</li>
+      <li>Profil ekranından hesabını ve verilerini anında silebilir</li>
+      <li>Kişisel verilerine ilişkin KVKK kapsamındaki haklarını okeybuddy.destek@gmail.com e-posta adresi veya veri sorumlusunun posta adresi üzerinden kullanabilir</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>İletişim</h2>
+    <p>Destek ve gizlilik talepleri için: okeybuddy.destek@gmail.com</p>
     <p>Veri sorumlusu: Halil Melih Akça, Beytepe Mahallesi 1815. Sokak No: 47, Ankara</p>
   </section>
 </main>
